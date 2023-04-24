@@ -186,18 +186,7 @@ img {
   height: 20rem !important;
  }
  /*text-motive*/
- .text_motive {
-  margin-left: 0px !important;
-  padding-top: 4px !important;
-  width: 355px;
-  height: 110px;
- }
- .text_feature {
-  margin-left: 100px !important;
- }
- .text_feature .col-md-3 {
-  margin-top: 20px;
- }
+
  /*img*/
  .img-fluid {
   margin-left: 60px !important;
