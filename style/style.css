@@ -198,6 +198,6 @@ img {
   margin-bottom: 20px;
  }
  #founder .col-md-4 {
-  margin-bottom: 1000px;
+  margin-bottom: 1000px !important;
  }
 }
