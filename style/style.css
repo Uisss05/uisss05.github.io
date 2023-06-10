@@ -1,0 +1,203 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol,
+ul {
+ list-style: none;
+}
+blockquote,
+q {
+ quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+ content: "";
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/*mycss*/
+body {
+ background-color: #ffffff !important;
+}
+/*slide1*/
+.text_judul {
+ color: blue;
+ font-size: 96px;
+ font-family: "DynaPuff", cursive;
+}
+/*navbar*/
+.navbar-brand {
+ font-family: "DynaPuff", cursive;
+}
+.nav-link {
+ padding-left: 10px !important;
+}
+/*motive*/
+.judul_motive h1 {
+ font-size: 35px;
+ font-family: "DynaPuff", cursive;
+}
+.text_motive {
+ width: 800px;
+ height: 90px;
+ font-size: 24px;
+ background-color: rgb(228, 228, 228);
+ margin-left: 150px !important;
+ padding: 25px;
+ font-family: "Roboto", sans-serif;
+ margin-top: 10px;
+}
+/*fitur*/
+#fitur {
+ margin-top: 30px;
+}
+.judul_fitur h1 {
+ font-size: 35px;
+ font-family: "DynaPuff", cursive;
+}
+.text_feature {
+ margin-top: 15px !important;
+}
+/*founder*/
+.judul_founder h1 {
+ font-size: 35px;
+ font-family: "DynaPuff", cursive;
+ margin-top: 30px;
+}
+img {
+ width: 15rem;
+}
+#founder{
+    margin-bottom: 50px;
+}
+/*Arbain nawawi*/
+/*responsive*/
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+ /*ilmu alhadist*/
+ .text_judul {
+  font-size: 5rem;
+ }
+ /*animasi*/
+ lottie-player {
+  width: 20rem !important;
+  height: 20rem !important;
+ }
+ /*text-motive*/
+
+ /*img*/
+ .img-fluid {
+  margin-left: 60px !important;
+  margin-top: 30px;
+  margin-bottom: 20px;
+ }
+ #founder .col-md-4 {
+  margin-bottom: 25px;
+ }
+}
