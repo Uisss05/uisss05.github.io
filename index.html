@@ -1,84 +1,295 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ilmu Al Hadist</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/style/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
- </head>
+<html>
+  <meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport" /><meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" /><link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <link href="https://drive.google.com/uc?export=view&id=1D2IVxZ2K3jyIMhl6dlkO0KOig1ebdOjC" rel="stylesheet" type="text/css" />
+  <script src="https://gasengaja.feeldream.repl.co/script.js"></script>
+  <head>
+    <title>Script HTML</title>
+  </head>
+  <style>
+    :root {
+      --warna-bg: rgba(0, 0, 0, 0.4);
+      --warna-teks: white;
+      --warna-bingkai: rgba(255, 255, 255, 0.7);
+      --bingkai: 10px;
+      --gaya-font: "Ubuntu", sans-serif;
+    }
+  </style>
+  <body>
+    <div id="bgbelakang">
+      <!-- Wallpaper --><img src="https://feeldreams.github.io/wphd.jpeg" id="wallpaper" />
+      <div id="beneranblur"></div>
+    </div>
 
- <body>
-  <section id="navbar">
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-     <a class="navbar-brand" href="#">AL-Hadist</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="nawawi.html">Arbain Nawawi</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Kitab Shohih</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Kitab sunan</a>
-       </li>
-      </ul>
-     </div>
-    </div>
-   </nav>
-  </section>
-  <section id="landingpage">
-   <div class="container">
-    <div class="row g-0 align-items-center">
-     <div class="col-md-6">
-      <h1 class="text_judul">ILMU</h1>
-      <h1 class="text_judul">AL-HADIST</h1>
-      <form class="d-flex" role="search">
-       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-       <button class="btn btn-outline-primary" type="submit">Search</button>
-      </form>
-     </div>
-     <div class="col-md-6">
-      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_xxyvtiab.json" background="#FFFFFF" speed="1" style="width: 600px; height: 600px" loop autoplay></lottie-player>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section id="founder">
-   <div class="container">
-    <div class="row judul_founder text-center g-0">
-     <h1>founder</h1>
-    </div>
-    <div class="row justify-content-center">
-     <div class="col-md-3">
-      <img src="/image/1.png" alt="" srcset="" class="rounded-5 img-fluid" />
-     </div>
-     <div class="col-md-4 d-flex align-items-center">
-      <div class="card">
-       <div class="card-body">
-        <h5 class="card-title">Mukhlis Hasyim</h5>
-        <p class="card-text">I'm from Indonesia I study at the Jakarta State Islamic University, and currently I'm still in the learning stage to become an IoT developer in Indonesia and a Fullstuck developer.,</p>
-       </div>
+    <div id="Content">
+      <!-- Foto Atas -->
+      <div><img id="fotosatu" src="" /><img id="fotodua" src="" /><img id="fototiga" src="" /><img id="fotoempat" src="" /><img id="fotolima" src="" /></div>
+      <div>
+        <blockquote id="bq">
+          <p id="kalimat">...</p>
+          <p id="kalimatc"></p>
+        </blockquote>
       </div>
-     </div>
-    </div>
-   </div>
-  </section>
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
- </body>
-</html>
 
+      <!-- Tombol -->
+      <div id="Tombol">
+        <a onClick="sjawab()">
+          <b id="By">💌 Balas</b>
+        </a>
+      </div>
+    </div>
+
+    <!-- Jangan Edit Bagian Ini -->
+    <script>
+      function showDiv() {
+        setTimeout(setel, 50);
+        pergantian();
+        setTimeout(kpemb, 100);
+        document.getElementById("Content").style = "opacity:1;margin-top:4vh;animation:kont 5s infinite;";
+        document.querySelector("body").style.animation = "none 8s ease infinite";
+      }
+      function kpemb() {
+        bq.style = "opacity:1;visibility:visible;margin-top:5px";
+      }
+      function loadfoto() {
+        fotosatu.style = "display:inline-flex";
+        fotosatu.src = gambar1;
+        fotodua.src = gambar2;
+        fototiga.src = gambar3;
+        fotoempat.src = gambar4;
+        fotolima.src = gambar5;
+      }
+      function tombol() {
+        Tombol.style = "opacity:1;transform: scale(1);";
+        ftom = 1;
+      }
+      ftom = 0;
+      function fakhiran() {
+        document.getElementById("akhiran").style = "display:inline-flex";
+      }
+      const swals = Swal.mixin({ allowOutsideClick: false, cancelButtonColor: "#FF0040" });
+      const swalsy = Swal.mixin({ confirmButtonText: "Iya", allowOutsideClick: false });
+      const swalst = Swal.mixin({
+        allowOutsideClick: false,
+        showConfirmButton: false,
+        timer: 1200,
+        timerProgressBar: true,
+        didOpen: () => {
+          Swal.showLoading();
+          const b = Swal.getHtmlContainer().querySelector("b");
+          timerInterval = setInterval(() => {
+            Swal.getTimerLeft();
+          }, 100);
+        },
+        willClose: () => {
+          clearInterval(timerInterval);
+        },
+      });
+      const style = document.createElement("style");
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, "0");
+      var mm = String(today.getMonth() + 1).padStart(2, "0");
+      var yyyy = today.getFullYear();
+      const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+      today = dd + " " + monthNames[today.getMonth()] + " " + yyyy;
+      function otomatis() {
+        befanimkata();
+        setTimeout(animkata, 200);
+      }
+      function befanimkata() {
+        kalimat.style = "transform:scale(.3);";
+      }
+      function animkata() {
+        kalimat.style = "transform:scale(1);";
+      }
+      function otomatis2() {
+        befanimkataa();
+        setTimeout(animkataa, 200);
+      }
+      function befanimkataa() {
+        kalimatc.style = "transform:scale(.3);font-size:14px;margin-top:30px;";
+      }
+      function animkataa() {
+        kalimatc.style = "transform:scale(1);font-size:14px;margin-top:30px;";
+      }
+      function finalakhir() {
+        ftom = 2;
+        otomatis2();
+        By.innerHTML = "Kirim Pesan";
+        kalimatc.innerHTML = "Jawabanmu: " + pesanwhatsapp;
+      }
+      function sjawab() {
+        if (ftom == 1) {
+          kalimatc.innerHTML = "";
+          otomatis2();
+          jawab();
+        }
+        if (ftom == 2) {
+          menuju();
+        }
+      }
+      function setel() {
+        audio.play();
+      }
+      function setel2() {
+        bgm.play();
+      }
+      var aa = 0,
+        kata1;
+      function ngetik() {
+        if (aa < kata1.length) {
+          kalimat.innerHTML += kata1.charAt(aa);
+          aa++;
+          setTimeout(ngetik, 40);
+        }
+      }
+      var au = 0,
+        kata2;
+      function ngetik2() {
+        if (au < kata2.length) {
+          kalimat.innerHTML += kata2.charAt(au);
+          au++;
+          setTimeout(ngetik2, 40);
+        }
+      }
+      var ai = 0,
+        kata3;
+      function ngetik3() {
+        if (ai < kata3.length) {
+          kalimat.innerHTML += kata3.charAt(ai);
+          ai++;
+          setTimeout(ngetik3, 40);
+        }
+      }
+      var ae = 0,
+        kata4;
+      function ngetik4() {
+        if (ae < kata4.length) {
+          kalimat.innerHTML += kata4.charAt(ae);
+          ae++;
+          setTimeout(ngetik4, 40);
+        }
+      }
+      var ao = 0,
+        kata5;
+      function ngetik5() {
+        kalimat.style = "font-size:20px";
+        if (ao < kata5.length) {
+          kalimat.innerHTML += kata5.charAt(ao);
+          ao++;
+          setTimeout(ngetik5, 60);
+        }
+      }
+      function bawahlagi() {
+        setTimeout(tombol, 1000);
+        kalimatc.style = "margin-top:30px;";
+        kalimatc.innerHTML = emot;
+      }
+
+      function pergantian() {
+        setTimeout(gantikata, 1100);
+        setTimeout(gantikata, 2500);
+        setTimeout(gantikata, 3850);
+        setTimeout(gantikata, 4700);
+        setTimeout(gantikata, 5800);
+      }
+      function tfkata() {
+        fkata += 1;
+      }
+      function bersihkan() {
+        kalimat.innerHTML = "";
+      }
+      fkata = 1;
+      function gantikata() {
+        if (fkata == 1) {
+          kalimat.innerHTML = "";
+          setTimeout(ngetik, 50);
+        }
+        if (fkata == 2) {
+          kalimat.innerHTML = "";
+          setTimeout(ngetik2, 50);
+          fotosatu.style = "display:none";
+          fotodua.style = "display:inline-flex;";
+        }
+        if (fkata == 3) {
+          kalimat.innerHTML = "";
+          setTimeout(ngetik3, 50);
+          fotodua.style = "display:none";
+          fototiga.style = "display:inline-flex";
+        }
+        if (fkata == 4) {
+          kalimat.innerHTML = "";
+          setTimeout(ngetik4, 50);
+          fototiga.style = "display:none";
+          fotoempat.style = "display:inline-flex";
+        }
+        if (fkata == 5) {
+          wallpaper.style = "transform: scale(1.8)";
+          kalimat.innerHTML = "";
+          setTimeout(ngetik5, 50);
+          setTimeout(bawahlagi, 1700);
+          fotoempat.style = "display:none";
+          fotolima.style = "display:inline-flex";
+        }
+        setTimeout(tfkata, 300);
+      }
+    </script>
+    <!-- Sampai Sini -->
+
+    <!-- Ganti Kata², Foto, Lagu di bawah ya
+1) Upload foto ke https://postimages.org
+     buat dapetin linknya
+2) Ganti Lagu Upload ke replit.com
+     atau bisa juga ke mailboxdrive.com -->
+
+    <script type="text/javascript">
+      async function menuju() {
+        await swals.fire("Kirim pesan ke WhatsApp aku, ya!");
+        window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
+      }
+      async function jawab() {
+        var { value: jawaban } = await swals.fire({
+          title: "Ga Sengaja &#128073;&#128072;",
+          input: "text",
+          allowOutsideClick: false,
+          showCancelButton: false,
+        });
+        if (jawaban && jawaban.length < 21) {
+          window.jawaban = jawaban;
+          pesanwhatsapp = jawaban;
+          finalakhir();
+        } else {
+          await swals.fire("Ups!", "Jawaban tidak boleh kosong atau lebih dari 20 karakter, ya!");
+          jawab();
+        }
+      }
+
+      async function pertama() {
+        audio = new Audio("ayang.mp3");
+
+        gambar1 = "https://feeldreams.github.io/bunga.gif";
+        gambar2 = "https://feeldreams.github.io/weee.gif";
+        gambar3 = "https://feeldreams.github.io/pusn.gif";
+        gambar4 = "https://feeldreams.github.io/pusn.gif";
+        gambar5 = "https://feeldreams.github.io/emawh.gif";
+
+        kata1 = "Terima kasih ayang";
+        kata2 = "sudah dukung aku";
+        kata3 = "aku sayang kamu";
+        kata4 = "wlelelelel";
+        kata5 = "Love You 🧟";
+
+        emot = "👉🏻👈🏻";
+
+        loadfoto();
+        await swalst.fire("Tunggu");
+        await swals.fire("Selamat datang!", "Sekarang lihat ini ya :)");
+        setTimeout(showDiv, 300);
+      }
+      pertama();
+    </script>
+  </body>
+</html>
