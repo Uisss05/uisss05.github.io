@@ -79,12 +79,12 @@ time,
 mark,
 audio,
 video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -98,106 +98,236 @@ hgroup,
 menu,
 nav,
 section {
- display: block;
+  display: block;
 }
 body {
- line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
- list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
- quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
- content: "";
- content: none;
+  content: "";
+  content: none;
 }
 table {
- border-collapse: collapse;
- border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /*mycss*/
 body {
- background-color: #ffffff !important;
+  background-color: #ffffff !important;
 }
 /*slide1*/
 .text_judul {
- color: blue;
- font-size: 96px;
- font-family: "DynaPuff", cursive;
+  color: blue;
+  font-size: 96px;
+  font-family: "DynaPuff", cursive;
 }
 /*navbar*/
 .navbar-brand {
- font-family: "DynaPuff", cursive;
+  font-family: "DynaPuff", cursive;
 }
 .nav-link {
- padding-left: 10px !important;
+  padding-left: 10px !important;
 }
 /*motive*/
 .judul_motive h1 {
- font-size: 35px;
- font-family: "DynaPuff", cursive;
+  font-size: 35px;
+  font-family: "DynaPuff", cursive;
 }
 .text_motive {
- width: 800px;
- height: 90px;
- font-size: 24px;
- background-color: rgb(228, 228, 228);
- margin-left: 150px !important;
- padding: 25px;
- font-family: "Roboto", sans-serif;
- margin-top: 10px;
+  width: 800px;
+  height: 90px;
+  font-size: 24px;
+  background-color: rgb(228, 228, 228);
+  margin-left: 150px !important;
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
 }
 /*fitur*/
 #fitur {
- margin-top: 30px;
+  margin-top: 30px;
 }
 .judul_fitur h1 {
- font-size: 35px;
- font-family: "DynaPuff", cursive;
+  font-size: 35px;
+  font-family: "DynaPuff", cursive;
 }
 .text_feature {
- margin-top: 15px !important;
+  margin-top: 15px !important;
+}
+/* Made */
+.Made-ct {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 300px !important;
+  height: 50px !important;
+  align-items: center;
+}
+#K-Made {
+  margin-top: 50px;
+}
+.K-ct {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 600px !important;
+  height: 100px !important;
+  align-items: center;
+}
+/* intro */
+#intro {
+  background-color: #0000ff;
+}
+/* fitur */
+#fitur {
+  margin-top: 50px;
+}
+.F-ct {
+  font-size: 18px;
+  height: 45px !important;
+  width: 300px !important;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.Hc {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 150px;
+  align-items: center;
+  color: #ffffff;
+}
+.Hc-c {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 75px;
+  align-items: center;
+  color: #ffffff;
+}
+.Hc-e {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-right: 150px;
+  align-items: center;
+  color: #ffffff;
 }
 /*founder*/
 .judul_founder h1 {
- font-size: 35px;
- font-family: "DynaPuff", cursive;
- margin-top: 30px;
+  font-size: 35px;
+  font-family: "DynaPuff", cursive;
+  margin-top: 30px;
 }
 img {
- width: 15rem;
+  width: 15rem;
 }
-#founder{
-    margin-bottom: 50px;
+#founder {
+  margin-bottom: 50px;
 }
+
 /*Arbain nawawi*/
 /*responsive*/
 @media only screen and (min-width: 300px) and (max-width: 992px) {
- /*ilmu alhadist*/
- .text_judul {
-  font-size: 5rem;
- }
- /*animasi*/
- lottie-player {
-  width: 20rem !important;
-  height: 20rem !important;
- }
- /*text-motive*/
+  /*ilmu alhadist*/
+  .text_judul {
+    font-size: 5rem;
+  }
+  /*animasi*/
+  lottie-player {
+    width: 20rem !important;
+    height: 20rem !important;
+  }
+  /*text-motive*/
 
- /*img*/
- .img-fluid {
-  margin-left: 60px !important;
+  /*img*/
+  .img-fluid {
+    margin-left: 60px !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #founder .col-md-4 {
+    margin-bottom: 25px;
+  }
+}
+/*fitur*/
+#fitur {
   margin-top: 30px;
-  margin-bottom: 20px;
- }
- #founder .col-md-4 {
-  margin-bottom: 25px;
- }
+}
+.judul_fitur h1 {
+  font-size: 35px;
+  font-family: "DynaPuff", cursive;
+}
+.text_feature {
+  margin-top: 15px !important;
+}
+/* Made */
+.Made-ct {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 300px !important;
+  height: 50px !important;
+  align-items: center;
+}
+#K-Made {
+  margin-top: 50px;
+}
+.K-ct {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 350px !important;
+  height: 100px !important;
+  align-items: center;
+}
+/* intro */
+#intro {
+  background-color: #0000ff;
+}
+/* fitur */
+#fitur {
+  margin-top: 50px;
+}
+.F-ct {
+  font-size: 18px;
+  height: 45px !important;
+  width: 300px !important;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.Hc {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 60px;
+  align-items: center;
+  color: #ffffff;
+}
+.Hc-c {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 60px;
+  align-items: center;
+  color: #ffffff;
+}
+.Hc-e {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 60px;
+  align-items: center;
+  color: #ffffff;
+}
+#founder {
+  margin-bottom: 50px;
+  margin-top: -10px;
 }
